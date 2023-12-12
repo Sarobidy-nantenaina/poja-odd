@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'prod'
+      - 'preprod'
   pull_request:
     branches:
-      - 'prod'
+      - 'preprod'
 
 env:
   AWS_REGION: eu-west-3
